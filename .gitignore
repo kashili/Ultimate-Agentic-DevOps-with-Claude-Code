@@ -1,0 +1,33 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Local environment
+.env
+.env.local
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
